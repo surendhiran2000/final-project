@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+background-color: #007BFF;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.nav-bar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 200px;
+}
+.nav-bar a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+}
+.nav-bar a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+.nav-bar h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main-content 
+   {
+    
+    background: linear-gradient(to right, #87cefa, #f1e311);
+  }
+.sidenav{
+  background-color: #87cefa;
+}
+
+
+  
+
+img{
+  padding: 10px;
+}
+.tick-box{
+  background-color: #fff;
+}
+.tick-box2{
+  background-color: #fff;
+}
+.tick-box3{
+  background-color: #fff;
+
+  
+} 
+
+.content{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVtzxFofTg5l6cqGez2JUYiSQOOpqV-Z87lQ&s');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.contact-us {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info, .additional-info, .faq-link {
+  margin-bottom: 20px;
+}
+
+.contact-info p, .additional-info p {
+  margin: 5px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.map iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+.offers-page {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.offers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.offer-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offer-card h2 {
+  margin: 0 0 10px;
+  color: #007BFF;
+}
+
+.offer-card p {
+  margin: 5px 0;
+}
+
+.call-to-action {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.call-to-action p {
+  margin-bottom: 10px;
+}
